@@ -1,0 +1,9 @@
+<nav class="Navigation">
+	<ul class="Navigation-list">
+		{{#each toolkit.navigation }}
+		<li class="Navigation-listItem">
+			<a href="../pages/{{@key}}.html" class="Navigation-link">{{this}}</a>
+		</li>
+		{{/each}}
+	</ul>
+</nav>
