@@ -28,7 +28,7 @@ $ npm start
 This repository will begin as one minor release ahead of the original Fabricator to
 accommodate for the changes made. Future version increments will also be reflected
 here; i.e. if Fabricator updates from v1.2.3 to v1.2.4 this repo will change from v1.3.0 to
-v1.4.0 and when Fabricator turns v2.0.0 this repo will become (at least) v2.1.0.
+v1.3.1, likewise when Fabricator turns v2.0.0 this repo will become (at least)  v2.1.0.
 
 Any significant additions/modifications to this fork will warrant their own version
 changes and so the versions between the original and this fork may get out of sync.
