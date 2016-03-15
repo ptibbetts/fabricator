@@ -2,7 +2,25 @@
  * Toolkit styles
  */
 
+@import 'settings/colours';
+@import 'settings/typography';
 
-body {
-	font-family: sans-serif;
-}
+@import 'node_modules/normalize.css/normalize';
+@import "generic/box-sizing";
+@import "generic/sticky-footer";
+
+@import 'elements/main';
+@import 'elements/body';
+@import 'elements/headings';
+@import 'elements/paragraphs';
+@import 'elements/images';
+@import 'elements/links';
+@import 'elements/lists';
+
+@import "objects/container";
+@import "objects/row";
+@import "objects/inline-list";
+@import "objects/rounded-edges";
+
+@import 'components/Header';
+@import 'components/Footer';

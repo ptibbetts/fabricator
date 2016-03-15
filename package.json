@@ -49,5 +49,8 @@
     "run-sequence": "^1",
     "script-loader": "^0.6.1",
     "webpack": "^1.12.1"
+  },
+  "dependencies": {
+    "normalize.css": "^3.0.3"
   }
 }

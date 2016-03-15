@@ -1,0 +1,12 @@
+.container {
+	margin: 0 auto;
+	max-width: 42rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	width: 100%;
+
+	@modifier fluid {
+		max-width: none;
+	}
+
+}

@@ -1,0 +1,45 @@
+@component Navigation {
+	display: flex;
+	flex-wrap: wrap;
+
+	@descendent list {
+		list-style-type: none;
+		margin: 0;
+		padding-left: 0;
+	}
+
+	@descendent listItem {
+		display: inline-block;
+		color: lighten($black, 50);
+		font-size: 0.8em;
+		font-weight: bold;
+		padding-left: 0.5em;
+		position: relative;
+		text-transform: uppercase;
+
+		&:not(:last-child) {
+			padding-right: 0.5em;
+
+			&:after {
+				color: lighten($black, 75);
+				content : ',';
+				position: absolute;
+					top: 0;
+				text-shadow: 1px 1px rgba(red, 0.15);
+			}
+		}
+
+	}
+
+	@descendent link {
+		border-bottom: 1px solid $faint-grey;
+		color: lighten($black, 25);
+		text-decoration: none;
+
+		&:hover {
+			border-color: $light-grey;
+		}
+
+	}
+
+}

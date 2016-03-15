@@ -1,0 +1,42 @@
+.Header {
+  background: rgba( $white, 0.75);
+  position: fixed;
+    top: 0;
+    left: 0;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.75;
+  transition: opacity 150ms ease;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .Brand {
+    flex: 1;
+  }
+
+  .Navigation {
+    flex: 3;
+    justify-content: flex-end;
+    font-size: 0.6em;
+    margin-left: auto;
+    text-align: right;
+
+    @media (min-width: 25rem) {
+      font-size: 0.8em;
+    }
+
+    @media (min-width: 32rem) {
+      font-size: 0.9em;
+    }
+
+  }
+
+}
