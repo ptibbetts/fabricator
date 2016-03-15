@@ -1,7 +1,7 @@
 {
-  "name": "fabricator",
+  "name": "ptibbetts-fabricator",
   "version": "1.2.3",
-  "description": "A tool for building website UI toolkits",
+  "description": "My personal fork of Fabricator",
   "license": "MIT",
   "homepage": "http://fbrctr.github.io/",
   "main": "README.md",
@@ -20,11 +20,11 @@
     "patterns",
     "library"
   ],
-  "author": "Luke Askew",
+  "author": "Paul Tibbetts",
   "licenses": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fbrctr/fabricator.git"
+    "url": "https://github.com/ptibbetts/fabricator.git"
   },
   "engines": {
     "node": ">=0.12.0",

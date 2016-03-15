@@ -1,37 +1,34 @@
-[![GitHub release](https://img.shields.io/github/release/fbrctr/fabricator.svg)]()
-[![Build Status](https://travis-ci.org/fbrctr/fabricator.svg)](https://travis-ci.org/fbrctr/fabricator) [![devDependency Status](https://david-dm.org/fbrctr/fabricator/dev-status.svg)](https://david-dm.org/fbrctr/fabricator#info=devDependencies) [![Join the chat at https://gitter.im/fbrctr/fabricator](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fbrctr/fabricator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# ptibbetts/fabricator
 
-<p align="center">
-  <img src="http://fbrctr.github.io/assets/toolkit/images/logo.svg" width="500">
-</p>
+This is my fork of [Luke Askew](https://github.com/LukeAskew)'s [Fabricator](http://fbrctr.github.io)
+which is currently at [v1.2.3](https://github.com/fbrctr/fabricator/releases/tag/v1.2.3).
 
-# Fabricator
+It's kept in sync with the following exceptions:
 
-> _fabricate_ - to make by assembling parts or sections.
-
-Fabricator is a tool for building website UI toolkits - _think ["Tiny Bootstraps, for Every Client"](http://daverupert.com/2013/04/responsive-deliverables/#tiny-bootstraps-for-every-client)_
+- Materials renamed to `components`, `objects` and `elements` [4a659cd](https://github.com/ptibbetts/fabricator/commit/4a659cd4d24c3085c396e4ea62c2525c209cdd94)
+- Adds my own starter CSS, including [Normalize.css](https://necolas.github.io/normalize.css/) [ff36892](https://github.com/ptibbetts/fabricator/commit/ff3689239b278b4ae2eb748637e386f2d420d37f)
+- Replaces `{{baseurl}}` calls for script/style in default layout so repo can be hosted
+on GitHub pages - [more info](https://github.com/ptibbetts/styles.paultibbetts.uk/issues/1) [d8e227e](https://github.com/ptibbetts/fabricator/commit/d8e227eb58a3a9b76c755ee4e1b7b81a9c084dde)
+- Replaces default "home" page with empty "index" page [afd3a4a](https://github.com/ptibbetts/fabricator/commit/afd3a4a8bd9300823d6bc47e37928400c77468ab)
+- Fixes spelling of the word colours [988fd04](https://github.com/ptibbetts/fabricator/commit/988fd04e5048b535f6426b3c309f23e63d5fee68)
 
 ## Quick Start
 
 ```shell
-$ curl -L https://github.com/fbrctr/fabricator/archive/master.tar.gz | tar zx --strip 1
+$ curl -L https://github.com/ptibbetts/fabricator/archive/master.tar.gz | tar zx --strip 1
 $ npm start
 ```
 
 ## Documentation
 
-#### [Read the docs →](http://fbrctr.github.io/docs)
+#### [Read the docs for Fabricator →](http://fbrctr.github.io/docs)
 
-## Demo
+## Versioning
 
-#### [Default Fabricator Instance →](http://fbrctr.github.io/demo)
+This repository will begin as one minor release ahead of the original Fabricator to
+accommodate for the changes made. Future version increments will also be reflected
+here; i.e. if Fabricator updates from v1.2.3 to v1.2.4 this repo will change from v1.2.4 to
+v1.2.5 and when Fabricator turns v2.0.0 this repo will become (at least) v2.1.0.
 
-## Credits
-
-Created by [Luke Askew](http://twitter.com/lukeaskew).
-
-Logo by [Abby Putinski](https://abbyputinski.com/)
-
-## License
-
-[The MIT License (MIT)](http://opensource.org/licenses/mit-license.php)
+Any significant additions/modifications to this fork will warrant their own version
+changes and so the versions between the original and this fork may get out of sync.
