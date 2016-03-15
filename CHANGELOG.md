@@ -1,6 +1,10 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+### Removed
+- Removed Fabricator README
+
 ## 1.3.0 - 2016-03-15
 ### Added
 - Adds my own starter CSS, including [Normalize.css](https://necolas.github.io/normalize.css/)
