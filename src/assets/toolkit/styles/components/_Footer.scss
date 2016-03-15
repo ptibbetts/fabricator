@@ -1,25 +1,3 @@
 .Footer {
-  color: $light-grey;
-  font-size: 0.8em;
-  font-style: italic;
-  padding: 1rem 0;
-
-  &:hover {
-    color: rgba($black, 0.5);
+    
   }
-
-  .container {
-    display: flex;
-  }
-
-  a {
-    color: inherit;
-    transition: color 150ms ease;
-
-    &:hover {
-      border-bottom: 1px solid darken($white, 25);
-    }
-
-  }
-
-}
