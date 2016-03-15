@@ -1,7 +1,7 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## 1.2.4 - 2016-03-15
+## 1.3.0 - 2016-03-15
 ### Added
 - Adds my own starter CSS, including [Normalize.css](https://necolas.github.io/normalize.css/)
 
