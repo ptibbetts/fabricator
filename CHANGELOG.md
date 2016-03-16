@@ -2,6 +2,9 @@
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
+### Added
+- Added `default`,  `capitalise` and `slugify` Handlebar helpers
+
 ### Removed
 - Removed Fabricator README
 

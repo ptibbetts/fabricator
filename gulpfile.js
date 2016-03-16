@@ -104,15 +104,26 @@ gulp.task('favicon', function () {
 		.pipe(gulp.dest(config.dest));
 });
 
+var handlebarHelpers = {
+	default: function (value, defaultValue) {
+		return value ? value : defaultValue;
+	},
+	capitalise: function (value) {
+		return value.charAt(0).toUpperCase() + value.slice(1);
+	},
+	slugify: function (title) {
+		return title.toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'');
+	}
+}
 
 // assemble
 gulp.task('assemble', function (done) {
 	assemble({
+		helpers: handlebarHelpers,
 		logErrors: config.dev
 	});
 	done();
 });
-
 
 // server
 gulp.task('serve', function () {
