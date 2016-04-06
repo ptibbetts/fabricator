@@ -120,7 +120,8 @@ var handlebarHelpers = {
 gulp.task('assemble', function (done) {
 	assemble({
 		helpers: handlebarHelpers,
-		logErrors: config.dev
+		logErrors: config.dev,
+		dest: config.dest
 	});
 	done();
 });
