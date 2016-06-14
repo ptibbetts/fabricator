@@ -7,9 +7,8 @@
   "main": "README.md",
   "scripts": {
     "gulp": "gulp",
-    "prestart": "npm install",
-    "build": "npm install && gulp",
-    "start": "gulp --dev",
+    "build": "node lib/build.js",
+    "start": "node lib/start.js",
     "test": "npm run build"
   },
   "keywords": [
@@ -37,6 +36,7 @@
     "babel-preset-stage-2": "^6",
     "browser-sync": "^2",
     "del": "^2",
+    "execa": "^0.4.0",
     "fabricator-assemble": "^1.1.10",
     "gulp": "^3",
     "gulp-autoprefixer": "^3",
@@ -48,6 +48,7 @@
     "gulp-sourcemaps": "^1",
     "gulp-util": "^3",
     "imports-loader": "^0.6.4",
+    "listr": "^0.1.0",
     "run-sequence": "^1",
     "script-loader": "^0.6.1",
     "webpack": "^1.12.1"
